@@ -15,6 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text("Home Screen"),
         backgroundColor: Colors.blue,
       ),
+      body: Center(child: CircleAvatar(),),
     );
   }
 }
